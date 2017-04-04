@@ -1,0 +1,104 @@
+
+<!--HEADER DIRECTIVE-->
+<homenav></homenav>
+
+<!--*********SUB MENU************-->
+<submenu></submenu>
+
+<!--*********PROFILE SECTION************-->
+<profileinfo></profileinfo>
+ <!-- **********FORM****************** -->
+ <section class="md-profileeditform">
+	<div class="container md-box">
+		<div class="row">
+		<form>
+	        <div class="col s12 m12 l12 ">
+	        	<div class="input-field col s6">
+		          <input  id="first_name" type="text" class="validate">
+		          <label for="first_name">First Name</label>
+		        </div>
+		        <div class="input-field col s6">
+		          <input id="email" type="email" class="validate">
+		          <label for="email">Email</label>
+		        </div>
+		        <div class="input-field col s6">
+		          <input id="number" type="text" class="validate">
+		          <label for="number">Mobile Number</label>
+		        </div>
+		         <div class="input-field col s6">
+		         	<input type="date" class="datepicker">
+		         	 <label for="date">Date</label>
+		        </div>
+		          <div class="input-field col s6">
+		          <div class="mdflft"><p>Gender</p></div>
+		          <div>
+				      <input class="with-gap" name="group1" type="radio" id="test3"  />
+				      <label for="test3">yes</label>
+				      <input class="with-gap" name="group1" type="radio" id="test2"  />
+				      <label for="test2">No</label>
+				   </div>
+			    </div>
+
+			    <div class="input-field col s6">
+		        <div class="mdflft"><p>Marital Status</p></div>
+				      <input class="with-gap" name="group1" type="radio" id="test3"  />
+				      <label for="test3">yes</label>
+				      <input class="with-gap" name="group1" type="radio" id="test2"  />
+				      <label for="test2">No</label>
+			    </div>
+			      <div class="input-field col s6">
+			          <input id="height" type="text" class="validate">
+			          <label for="height">Height</label>
+		        </div>
+		         <div class="input-field col s6">
+			          <input id="width" type="text" class="validate">
+			          <label for="width">Width</label>
+		        </div>
+		         <div class="input-field col s6">
+			          <input id="Diet" type="text" class="validate">
+			          <label for="Diet">Diet</label>
+		        </div>
+		        <div class="input-field col s6">
+			          <input id="foodallergies" type="text" class="validate">
+			          <label for="foodallergies">Food Allergies</label>
+		        </div>
+		         <div class="input-field col s12">
+			          <input id="medicalallergies" type="text" class="validate">
+			          <label for="medicalallergies">Medical Allergies</label>
+		        </div>
+		         <div class="input-field col s6">
+		        	<div class="mdflft"><p>Asthma</p></div>
+				      <input class="with-gap" name="group1" type="radio" id="test5"  />
+				      <label for="test5">yes</label>
+				      <input class="with-gap" name="group1" type="radio" id="test6"  />
+				      <label for="test6">No</label>
+			    </div>
+			     <div class="input-field col s6">
+		        	<div class="mdflft"><p>Diabetes</p></div>
+				      <input class="with-gap" name="group1" type="radio" id="test7"  />
+				      <label for="test7">yes</label>
+				      <input class="with-gap" name="group1" type="radio" id="test8"  />
+				      <label for="test8">No</label>
+			    </div>
+	        </div>
+	         <div class="col s12 m12 l12 ">
+	          <a class="waves-effect waves-light btn md-reqbtn greenaccpt right">Save Changes</a>
+	         </div>
+	     </form>   
+	     </div>
+	 </div>
+</section>
+        
+
+<!--*********PROFILE SECTION************-->
+<footer></footer>
+
+<script type="text/javascript">
+    $('.fixed-action-btn').openFAB();
+  $('.fixed-action-btn').closeFAB();   
+  $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+       
+</script>

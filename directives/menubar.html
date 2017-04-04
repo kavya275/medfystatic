@@ -1,0 +1,38 @@
+<div class="fixed-action-btn">
+    <a href="" class="btn-floating btn-large red">
+      <i class="fa fa-bars md-menubar" aria-hidden="true"></i>
+    </a>
+    <ul>
+      <li><a href="" class="btn tooltipped btn-floating checkup-icon" data-position="left"  data-tooltip="Check-up" ><img src="assets/images/boxicons/check-up.png" class="md-iconimg"></a></li>
+
+      <li><a href="" class="btn-floating illnes-icon"><img src="assets/images/boxicons/illness.png" class="md-iconimg"></a></li>
+
+      <li><a href="" class="btn-floating surgery-icon"><img src="assets/images/boxicons/surgery.png" class="md-iconimg"></a></li>
+
+      <li><a href="" class="btn-floating medication-icon"><img src="assets/images/boxicons/medication.png" class="md-iconimg"></a></li>
+
+       <li><a href="" class="btn-floating immunization-icon"><img src="assets/images/boxicons/immunization.png" class="md-iconimg"></a></li>
+    </ul>
+</div>
+<!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn" href="#modal5">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+         
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.fixed-action-btn').openFAB();
+   $('.fixed-action-btn').closeFAB(); 
+    $('.tooltipped').tooltip();
+  });
+      
+</script>

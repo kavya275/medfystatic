@@ -1,0 +1,156 @@
+
+<!--HEADER DIRECTIVE-->
+<homenav></homenav>
+
+<!--*********SUB MENU************-->
+<submenu></submenu>
+
+<!--*********PROFILE SECTION************-->
+<profileinfo></profileinfo>
+<!--*********5 BOX************-->
+<section class="md-fivebox">
+	<div class="container md-container5box">
+		<div class="row rw-btm">
+	        <div class="col s12 m12 l12">
+	        	<div class="md-idbox md-cbox1">
+	        		<p class="rw-btm md-mt40"><img src="assets/images/boxicons/check-up.png"></p>
+	        		<p class="md-fiveboxtxt">Checkup</p>
+	        		<p class="md-addrecord">Add Record</p>
+	        	</div>
+	        	<div class="md-idbox md-cbox2">
+	        		<p class="rw-btm md-mt40"><img src="assets/images/boxicons/illness.png"></p>
+	        		<p class="md-fiveboxtxt">Illnes</p>
+	        		<p class="md-addrecord">Add Record</p>
+	        	</div>
+	        	<div class="md-idbox md-cbox3">
+	        		<p class="rw-btm md-mt40"><img src="assets/images/boxicons/surgery.png"></p>
+	        		<p class="md-fiveboxtxt">Surgery</p>
+	        		<p class="md-addrecord">Add Record</p>
+	        	</div>
+	        	<div class="md-idbox md-cbox4">
+	        		<p class="rw-btm md-mt40"><img src="assets/images/boxicons/medication.png"></p>
+	        		<p class="md-fiveboxtxt">Medication</p>
+	        		<p class="md-addrecord">Add Record</p>
+	        	</div>
+	        	<div class="md-idbox md-cbox5">
+	        		<p class="rw-btm md-mt40"><img src="assets/images/boxicons/immunization.png"></p>
+	        		<p class="md-fiveboxtxt">Immunization</p>
+	        		<p class="md-addrecord">Add Record</p>
+	        	</div>
+	        </div>
+	      </div>
+	 </div>
+</section>
+<!--*********5 BOX************-->
+<section class="md-familymemeber">
+	<div class="container md-container5box">
+		<div class="row rw-btm">
+	        <div class="col s12 m12 l12">
+	        <h6 class="md-familyhding">Family Members</h6>
+	        </div>
+	        <div class="col s12 m12 l12">
+	        <!-- *******************Box 1**************************** -->
+	        	<div class="md-idboxfamily">
+	        		<div class="md-boxbagcolor">
+	        		</div>
+	        		<div>
+	        			<img src="assets/images/defaulterror/default-image.jpg" class="responsive-img md-cirlimg">
+	        			<p class="md-btmtxt">Name goes here</p>
+	        			<p class="md-btmtextsub">Daughter</p>
+	        		</div>
+	        		<div class="md-padalgn">
+		        		<div class="md-record">
+		        			<p class="md-rctxt"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;4 &nbsp;Records</p>
+		        		</div>
+		        		<div class="ms-lastupdate">
+		        			<p class="md-rctxt">Last update</p>
+		        			<p class="md-rctxt">May 27,2016</p>
+			        	</div>
+			        </div>	
+	        	</div>
+	        	 <!-- *******************Box 2**************************** -->
+	        	<div class="md-idboxfamily">
+	        		<div class="md-boxbagcolor">
+	        		</div>
+	        		<div>
+	        			<img src="assets/images/defaulterror/default-image.jpg" class="responsive-img md-cirlimg">
+	        			<p class="md-btmtxt">Name goes here</p>
+	        			<p class="md-btmtextsub">Daughter</p>
+	        		</div>
+	        		<div class="md-padalgn">
+		        		<div class="md-record">
+		        				<p class="md-rctxt"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;4 &nbsp;Records</p>
+		        		</div>
+		        		<div class="ms-lastupdate">
+		        			<p class="md-rctxt">Last update</p>
+		        			<p class="md-rctxt">May 27,2016</p>
+			        	</div>
+			        </div>	
+	        	</div>
+	        	 <!-- *******************ADD BUTTON**************************** -->
+	        	 <a  href="#modal1" class="modal-trigger">
+	        	 <div class="md-idboxfamily">
+	        		<div class="md-boxbagcolor">
+	        		</div>
+	        		<div>
+	        			<img src="assets/images/defaulterror/add-family.png" class="responsive-img md-cirlimg">
+	        			<p class="md-btmtxt">Add Family</p>
+	        		</div>
+	        	</div>
+	        	</a>
+	        </div>
+	      </div>
+	 </div>
+</section>
+ 
+<!-- Modal Structure -->
+  <div id="modal1" class="modal md-modalwidth">
+    <div class="modal-content md-modalcnt">
+      <div class="md-cnthading">
+      	<p class="modal-heading">Add Family Member</p>
+      </div>
+      <div class="md-cloasedbtn">
+      	 <a href="#!" class=" modal-action modal-close "><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+     <div class="row">
+	     <div class="col l12 m12 s12">
+	     	 <a ui-sref="addmember">
+			     <div class="col l12 m12 s12">
+			     	<div class="col l2 m2 s12 center">
+			     		<div class="md-popupcircle md-popcolor1">
+			     			<i class="fa fa-user-plus" aria-hidden="true"></i>
+			     		</div>
+			     	</div>
+			     	<div class="col l10 m10 s12">
+			     		<p>Create New Member</p>
+			     	</div>
+			     </div>
+		     </a>
+		     <a ui-sref="existingmember">
+			     <div class="col l12 m12 s12">
+			     	<div class="col l2 m2 s12 center">
+			     		<div class="md-popupcircle md-popcolor2">
+			     			<i class="fa fa-user-plus" aria-hidden="true"></i>
+			     		</div>
+			     	</div>
+			     	<div class="col l10 m10 s12">
+			     		<p>Add Existing Member</p>
+			     	</div>
+			     </div>
+		     </a>
+    	 </div>
+    </div>
+  </div>
+  </div>
+   
+<!--FOOTER DIRECTIVE-->
+<footer></footer>
+
+<script>
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+    $(".button-collapse").sideNav();
+	$('ul.tabs').tabs();
+  });
+</script>

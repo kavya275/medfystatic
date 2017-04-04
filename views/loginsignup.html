@@ -1,0 +1,104 @@
+<!--HEADER DIRECTIVE-->
+<homenav></homenav>
+ <section class="lnm-login-signup">
+		<div class="container">
+			<div class="row rw-btm ln-mt10">
+				<div class="loginbox">
+					<div class="left-side active">
+							<div class="left-box-bg">
+							</div>
+							 <div class="card back nomargin">
+								<div class="card-content">
+								<center>LOGIN</center>
+								 <div class="row rw-btm">
+									<div class="input-field col s12">
+									  <input id="name" type="text" class="validate" >
+									  <label for="name">User Name</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="password" type="password" class="validate" >
+									  <label for="password">Password</label>
+									</div>
+								  </div>
+								 <p class="lmn-act">I don't have an account?&nbsp;&nbsp;<span>Sign Up</span></p>
+								<a ui-sref="forgot"><p class="lmn-forgot">Forgot Password</p></a>
+								 <div class="row rw-btm">
+								 <center><a class="waves-effect waves-light btn lnm-signin">Signin</a></center></div>
+								</div>
+								
+						  </div>
+					</div>
+					<div class="right-side ">
+							<div class="right-box-bg">
+							</div>
+							 <div class="card box-card nomargin">
+							<div class="card-content">
+							 <div class="row rw-btm">
+								<div class="input-field col s12 lmn-mtmblnsu">
+								  <input id="name1" type="text" class="validate lnm-input">
+								  <label for="name1">Full Name</label>
+								</div>
+								<div class="input-field col s12 lmn-mtmblnsu">
+								  <input id="email1" type="email" class="validate lnm-input">
+								  <label for="email1">Email</label>
+								</div>
+								<div class="input-field col s12 lmn-mtmblnsu">
+								  <input id="passwords" type="password" class="validate lnm-input">
+								  <label for="passwords">Password</label>
+								</div>
+								<div class="input-field col s12 lmn-mtmblnsu">
+								  <input id="confirmpassword" type="password" class="validate lnm-input">
+								  <label for="confirmpassword">Confirm Password</label>
+								</div>
+								<div class="input-field col s12 lmn-mtmblnsu">
+								  <input id="phonenumber" type="text" class="validate lnm-input">
+								  <label for="phonenumber">Mobile Number</label>
+								</div>
+								 <div class="row rw-btm">
+								<div class="input-field col s12 lmn-mtmblnsu">
+								  <p class="lmn-act">Already have a account?&nbsp;&nbsp;Login</p>
+
+								</div>
+							  </div>
+
+							   <div class="row rw-btm">
+							  <center><a class="waves-effect waves-light btn lnm-signin">Create Account</a></center></div>
+							  </div>							
+							  </div>
+							
+						  </div>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+	 </section>
+
+
+
+<footer></footer>
+<script>
+		 $(".left-box-bg").click(function(){
+			 $(".left-side").addClass("active");
+			 $(".right-side").removeClass("active");
+			
+		  });
+		$(".right-box-bg").click(function(){
+			 $(".left-side").removeClass("active");
+			 $(".right-side").addClass("active");
+		});
+		function resettoggle() {
+			var e = document.getElementById('foo');
+			e.style.display = 'none';
+			}
+			function toggle_visibility(id) {
+			var e = document.getElementById(id);
+			if(e.style.display == 'none')
+			e.style.display = 'block';
+			else
+			e.style.display = 'none';
+			}
+	  </script>
